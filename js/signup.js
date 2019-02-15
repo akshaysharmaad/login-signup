@@ -25,3 +25,11 @@ function redirect() {
 }
 
 
+function rlogin() {
+    window.location = "index.html";
+    
+}
+
+function rhome(){
+    window.location = "main-page.html";
+}

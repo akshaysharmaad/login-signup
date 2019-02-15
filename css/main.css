@@ -1,0 +1,52 @@
+body{
+    background:url(../images/clip2.jpg );
+    
+}
+
+nav{
+    text-decoration: none;
+    color:whitesmoke;
+    position: absolute;
+    margin-top: 20px;
+}
+
+ul li{
+    display: inline;
+    padding: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 1.5px;
+    word-spacing: 4px;
+    font-size: 20px;
+    
+    
+}
+
+ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+
+}
+a:link{
+    text-decoration: none;
+}
+
+ul li a:hover{
+    color:black;
+    background-color: white;
+    height: 10px;
+    -webkit-transition: color 1s,background-color 1s;
+}
+.btn:hover{
+background-color: cornflowerblue;
+border-radius: 20px;
+-webkit-transition: background-color 1s;
+ }
+
+ .ed:hover{
+     border-radius: 20px;
+     background-color: forestgreen;
+ }
+
+ .top{
+     float: left;
+ }
