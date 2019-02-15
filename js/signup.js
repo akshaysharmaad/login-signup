@@ -21,7 +21,7 @@ function login() {
 }
 
 function redirect() {
-    window.location = "signup.html";
+    window.location = "../signup.html";
 }
 
 

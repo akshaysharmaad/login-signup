@@ -48,7 +48,9 @@ label{
   border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
   cursor: pointer;
 }
-
+input{
+    color:black;
+}
 input:hover{
 background-color: aliceblue;
 }
