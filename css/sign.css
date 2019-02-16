@@ -1,5 +1,6 @@
 @import url("bootstrap.min.css");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css");
+@import url("main.css");
 .signup{
     margin-top: 50px;
     margin-left: 370px;
@@ -58,3 +59,4 @@ background-color: aliceblue;
 select:hover{
     background-color: whitesmoke;
 }
+
