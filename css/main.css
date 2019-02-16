@@ -1,3 +1,6 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css");
+
+
 body{
     background:url(../images/clip2.jpg );
     
@@ -8,6 +11,11 @@ nav{
     color:whitesmoke;
     position: absolute;
     margin-top: 20px;
+    opacity: 0.5;
+}
+
+nav:hover{
+    opacity: 1.0;
 }
 
 ul li{
@@ -35,6 +43,7 @@ ul li a:hover{
     background-color: white;
     height: 10px;
     -webkit-transition: color 1s,background-color 1s;
+    
 }
 .btn:hover{
 background-color: cornflowerblue;
@@ -50,3 +59,38 @@ border-radius: 20px;
  .top{
      float: left;
  }
+
+ .ch{
+     position: fixed;
+     border-radius: 30px;
+     
+ }
+  .ch:hover{
+      position: absolute;
+      margin-left: 2px;
+  }
+
+  .fb:hover{
+      
+      margin-left: 80px;
+
+      -webkit-transition: margin-left 1s;
+  }
+  .tw:hover{
+      
+      margin-left: 65px;
+
+      -webkit-transition: margin-left 1s;
+  }
+  .yt:hover{
+      
+      margin-left: 70px;
+
+      -webkit-transition: margin-left 1s;
+  }
+  .google:hover{
+      
+      margin-left: 65px;
+
+      -webkit-transition: margin-left 1s;
+  }

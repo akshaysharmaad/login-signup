@@ -1,7 +1,7 @@
 function signup(){
     var user = document.getElementById('user').value;
     window.alert(`Congratulations ${user} Sign Up Successful!!`);
-
+    window.location="main-page.html";
     var password=document.getElementById('password').value;
     var UserArray=new Array;
     UserArray.push(user);
@@ -21,7 +21,7 @@ function login() {
 }
 
 function redirect() {
-    window.location = "../signup.html";
+    window.location = "signup.html";
 }
 
 
