@@ -33,3 +33,24 @@ function rlogin() {
 function rhome(){
     window.location = "main-page.html";
 }
+
+function change(){
+    var html = '<i class="fa fa-bookmark"></i>';
+    document.getElementById("change").innerHTML=html;
+}
+
+function like(){
+    var html = '<i class="fa fa-thumbs-up"> Liked</i>';
+    document.getElementById("like").innerHTML=html;
+}
+
+function dislike() {
+    var html = '<i class="fa fa-thumbs-down"> DisLiked</i>';
+    document.getElementById("dislike").innerHTML = html;
+}
+
+function comment() {
+    var html = '<br><textarea style="width:100%;">';
+    document.getElementById("comment").innerHTML=html;
+    
+}

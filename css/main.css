@@ -74,23 +74,49 @@ border-radius: 20px;
       
       margin-left: 80px;
 
-      -webkit-transition: margin-left 1s;
+      -webkit-transition: margin-left 0.5s;
   }
   .tw:hover{
       
       margin-left: 65px;
 
-      -webkit-transition: margin-left 1s;
+      -webkit-transition: margin-left 0.5s;
   }
   .yt:hover{
       
       margin-left: 70px;
 
-      -webkit-transition: margin-left 1s;
+      -webkit-transition: margin-left 0.5s;
   }
   .google:hover{
       
       margin-left: 65px;
 
-      -webkit-transition: margin-left 1s;
+      -webkit-transition: margin-left 0.5s;
+  }
+
+  .container1{
+      position: absolute;
+      margin-top:100px;
+      margin-left: 200px;
+      margin-right: 0px;
+  }
+
+  .row{
+      margin-right: 200px;
+  }
+
+  .flex
+  {
+display: flex;
+  }
+  .flex > div{
+      padding: 30px;
+      
+  }
+  .like{
+      background: none;
+      border: none;
+      border-radius: 15px;
+      background-color: beige;
   }
